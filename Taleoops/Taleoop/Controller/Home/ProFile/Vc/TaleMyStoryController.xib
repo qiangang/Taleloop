@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TaleMyStoryController" customModule="Taleoop" customModuleProvider="target">
+            <connections>
+                <outlet property="CollectionsView" destination="vjL-A6-nrn" id="z9d-da-Xpy"/>
+                <outlet property="Layout" destination="ccs-Fr-TvZ" id="fPQ-zp-S0p"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="never" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="vjL-A6-nrn">
+                    <rect key="frame" x="0.0" y="123" width="393" height="661"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ccs-Fr-TvZ" customClass="WaterfallMutiSectionFlowLayout" customModule="Taleoop" customModuleProvider="target">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="iiA-1V-gyF"/>
+                        <outlet property="delegate" destination="-1" id="JNn-Ol-oeL"/>
+                    </connections>
+                </collectionView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CurtainIcon" translatesAutoresizingMaskIntoConstraints="NO" id="x16-OF-LVd">
+                    <rect key="frame" x="0.0" y="116" width="393" height="30"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bT2-cr-5LC">
+                    <rect key="frame" x="0.0" y="118" width="393" height="5"/>
+                    <color key="backgroundColor" red="0.96862745100000003" green="0.74901960779999999" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="5" id="WF1-EW-Cm7"/>
+                    </constraints>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundNavigationIcon" translatesAutoresizingMaskIntoConstraints="NO" id="MbZ-AI-Yax">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="118"/>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="TaleColor"/>
+            <constraints>
+                <constraint firstItem="vjL-A6-nrn" firstAttribute="top" secondItem="bT2-cr-5LC" secondAttribute="bottom" id="4es-nR-p9a"/>
+                <constraint firstItem="MbZ-AI-Yax" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="596-j8-cPx"/>
+                <constraint firstItem="bT2-cr-5LC" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="ONN-uS-7Z6"/>
+                <constraint firstItem="x16-OF-LVd" firstAttribute="top" secondItem="bT2-cr-5LC" secondAttribute="bottom" constant="-7" id="SWu-YE-eMa"/>
+                <constraint firstAttribute="trailing" secondItem="bT2-cr-5LC" secondAttribute="trailing" id="Tnn-Cw-Yw5"/>
+                <constraint firstAttribute="trailing" secondItem="x16-OF-LVd" secondAttribute="trailing" id="Vi3-2w-Rf2"/>
+                <constraint firstItem="bT2-cr-5LC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="e4h-uv-Osp"/>
+                <constraint firstItem="x16-OF-LVd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="e9F-0i-w17"/>
+                <constraint firstItem="vjL-A6-nrn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="may-Ve-tNi"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="vjL-A6-nrn" secondAttribute="trailing" id="mdL-TW-fBJ"/>
+                <constraint firstItem="MbZ-AI-Yax" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="q39-eI-xkb"/>
+                <constraint firstItem="bT2-cr-5LC" firstAttribute="top" secondItem="MbZ-AI-Yax" secondAttribute="bottom" id="tlD-bk-QFV"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="vjL-A6-nrn" secondAttribute="bottom" id="uOn-cz-2Ie"/>
+                <constraint firstAttribute="trailing" secondItem="MbZ-AI-Yax" secondAttribute="trailing" id="vjy-Gc-HRv"/>
+            </constraints>
+            <point key="canvasLocation" x="130.53435114503816" y="-11.267605633802818"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BackgroundNavigationIcon" width="375" height="78"/>
+        <image name="CurtainIcon" width="375" height="30"/>
+        <namedColor name="TaleColor">
+            <color red="1" green="0.98039215686274506" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

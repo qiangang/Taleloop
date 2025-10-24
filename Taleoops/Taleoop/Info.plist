@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FacebookAppID</key>
+	<string>732889763103962</string>
+	<key>FacebookClientToken</key>
+	<string>098c304e17104c7792a266d898c33b73</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Inter-Regular.ttf</string>
+		<string>Inter-Medium.ttf</string>
+		<string>Inter-SemiBold.ttf</string>
+		<string>Inter-Bold.ttf</string>
+		<string>BalooBhaijaan-Regular.ttf</string>
+		<string>Inter-ExtraBold.ttf</string>
+		<string>BalooPaaji-Regular.ttf</string>
+		<string>BeVietnam-Regular.ttf</string>
+		<string>BeVietnam-Bold.ttf</string>
+		<string>Bestime.ttf</string>
+	</array>
+</dict>
+</plist>

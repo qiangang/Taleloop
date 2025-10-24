@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TaleCreateStoryColl" customModule="Taleoop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="104" height="125"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="104" height="125"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Xk5-ZL-6nM">
+                        <rect key="frame" x="0.0" y="0.0" width="104" height="125"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <button opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6N-lJ-Exi">
+                        <rect key="frame" x="78" y="6" width="20" height="20"/>
+                        <color key="backgroundColor" red="1" green="0.86274509803921573" blue="0.63921568627450975" alpha="0.28000000000000003" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="DpH-2G-7GP"/>
+                            <constraint firstAttribute="width" constant="20" id="Ss8-2D-4wn"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image=" "/>
+                        <state key="selected" image="SelectCoverUnSelectIcon"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Xk5-ZL-6nM" secondAttribute="bottom" id="5NL-pE-PbM"/>
+                <constraint firstAttribute="trailing" secondItem="Xk5-ZL-6nM" secondAttribute="trailing" id="93O-iZ-YoC"/>
+                <constraint firstItem="Xk5-ZL-6nM" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Lie-7m-Z4M"/>
+                <constraint firstAttribute="trailing" secondItem="B6N-lJ-Exi" secondAttribute="trailing" constant="6" id="QWe-qz-Fwx"/>
+                <constraint firstItem="Xk5-ZL-6nM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fro-uV-lBN"/>
+                <constraint firstItem="B6N-lJ-Exi" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="6" id="gJD-9o-4oz"/>
+            </constraints>
+            <size key="customSize" width="133" height="136"/>
+            <connections>
+                <outlet property="ImgView" destination="Xk5-ZL-6nM" id="qpR-uo-xXX"/>
+                <outlet property="SeleBtn" destination="B6N-lJ-Exi" id="xWZ-lh-com"/>
+            </connections>
+            <point key="canvasLocation" x="146.56488549618319" y="18.661971830985916"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name=" " width="128" height="128"/>
+        <image name="SelectCoverUnSelectIcon" width="20" height="20"/>
+    </resources>
+</document>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>x86_64</key>
+	<string>Simulator</string>
+	<key>i386</key>
+	<string>Simulator</string>
+	<key>iPhone16,2</key>
+	<string>iPhone 15 Pro Max</string>
+	<key>iPhone16,1</key>
+	<string>iPhone 15 Pro</string>
+	<key>iPhone15,5</key>
+	<string>iPhone 15 Plus</string>
+	<key>iPhone15,4</key>
+	<string>iPhone 15</string>
+	<key>iPhone15,3</key>
+	<string>iPhone 14 Pro Max</string>
+	<key>iPhone15,2</key>
+	<string>iPhone 14 Pro</string>
+	<key>iPhone14,8</key>
+	<string>iPhone 14 Plus</string>
+	<key>iPhone14,7</key>
+	<string>iPhone 14</string>
+	<key>iPhone14,6</key>
+	<string>iPhone SE (3rd generation)</string>
+	<key>iPhone14,3</key>
+	<string>iPhone 13 Pro Max</string>
+	<key>iPhone14,2</key>
+	<string>iPhone 13 Pro</string>
+	<key>iPhone14,5</key>
+	<string>iPhone 13</string>
+	<key>iPhone14,4</key>
+	<string>iPhone 13 mini</string>
+	<key>iPhone13,4</key>
+	<string>iPhone 12 Pro Max</string>
+	<key>iPhone13,3</key>
+	<string>iPhone 12 Pro</string>
+	<key>iPhone13,2</key>
+	<string>iPhone 12</string>
+	<key>iPhone13,1</key>
+	<string>iPhone 12 mini</string>
+	<key>iPhone12,8</key>
+	<string>iPhone SE (2nd generation)</string>
+	<key>iPhone12,5</key>
+	<string>iPhone 11 Pro Max</string>
+	<key>iPhone12,3</key>
+	<string>iPhone 11 pro</string>
+	<key>iPhone12,1</key>
+	<string>iPhone 11</string>
+	<key>iPhone11,8</key>
+	<string>iPhone XR</string>
+	<key>iPhone11,6</key>
+	<string>iPhone XS MAX</string>
+	<key>iPhone11,4</key>
+	<string>iPhone XS MAX</string>
+	<key>iPhone11,2</key>
+	<string>iPhone XS</string>
+	<key>iPhone10,6</key>
+	<string>iPhone X</string>
+	<key>iPhone10,3</key>
+	<string>iPhone X</string>
+	<key>iPhone10,2</key>
+	<string>iPhone 8 Plus</string>
+	<key>iPhone10,5</key>
+	<string>iPhone 8 Plus</string>
+	<key>iPhone10,4</key>
+	<string>iPhone 8</string>
+	<key>iPhone10,1</key>
+	<string>iPhone 8</string>
+	<key>iPhone9,4</key>
+	<string>iPhone 7 Plus</string>
+	<key>iPhone9,2</key>
+	<string>iPhone 7 Plus</string>
+	<key>iPhone9,3</key>
+	<string>iPhone 7</string>
+	<key>iPhone9,1</key>
+	<string>iPhone 7</string>
+	<key>iPhone8,4</key>
+	<string>iPhone SE (1st generation)</string>
+	<key>iPhone8,2</key>
+	<string>iPhone 6s Plus</string>
+	<key>iPhone8,1</key>
+	<string>iPhone 6s</string>
+	<key>iPhone7,1</key>
+	<string>iPhone 6 Plus</string>
+	<key>iPhone7,2</key>
+	<string>iPhone 6</string>
+	<key>iPhone6,2</key>
+	<string>iPhone 5s</string>
+	<key>iPhone6,1</key>
+	<string>iPhone 5s</string>
+	<key>iPhone5,4</key>
+	<string>iPhone 5c</string>
+	<key>iPhone5,3</key>
+	<string>iPhone 5c</string>
+	<key>iPhone5,2</key>
+	<string>iPhone 5</string>
+	<key>iPhone5,1</key>
+	<string>iPhone 5</string>
+	<key>iPhone4,1</key>
+	<string>iPhone 4s</string>
+	<key>iPhone3,3</key>
+	<string>iPhone 4</string>
+	<key>iPhone3,2</key>
+	<string>iPhone 4</string>
+	<key>iPhone3,1</key>
+	<string>iPhone 4</string>
+</dict>
+</plist>

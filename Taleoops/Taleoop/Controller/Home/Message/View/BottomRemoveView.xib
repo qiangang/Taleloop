@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BottomRemoveView" customModule="Taleoop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QHg-6E-9i6">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dmw-rO-XsH">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D74-dU-BOA">
+                            <rect key="frame" x="0.0" y="660" width="393" height="166"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uB4-P7-aXd">
+                                    <rect key="frame" x="20" y="105" width="353" height="50"/>
+                                    <color key="backgroundColor" red="0.96862745098039216" green="0.74901960784313726" blue="0.28627450980392155" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="Evd-NU-3TP"/>
+                                    </constraints>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Cancel">
+                                        <color key="titleColor" red="0.80392156859999997" green="0.52941176469999995" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" red="0.80392156859999997" green="0.52941176469999995" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="2"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="25"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="cancelBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="pLF-Ae-ghC"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQc-RB-GHD">
+                                    <rect key="frame" x="20" y="35" width="353" height="50"/>
+                                    <color key="backgroundColor" red="1" green="0.98039215690000003" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="vXM-dY-nsx"/>
+                                    </constraints>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Delete">
+                                        <color key="titleColor" red="0.96862745100000003" green="0.74901960779999999" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" red="0.96862745100000003" green="0.74901960779999999" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="2"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="25"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="DeleteBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="vIa-hq-QRu"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="0.86274509803921573" blue="0.63921568627450975" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="HQc-RB-GHD" secondAttribute="trailing" constant="20" id="F5x-en-wbe"/>
+                                <constraint firstAttribute="bottom" secondItem="uB4-P7-aXd" secondAttribute="bottom" constant="11" id="eF6-ie-oFD"/>
+                                <constraint firstItem="HQc-RB-GHD" firstAttribute="leading" secondItem="D74-dU-BOA" secondAttribute="leading" constant="20" id="je6-Kh-zCl"/>
+                                <constraint firstItem="uB4-P7-aXd" firstAttribute="top" secondItem="HQc-RB-GHD" secondAttribute="bottom" constant="20" id="o9t-wL-wQq"/>
+                                <constraint firstItem="HQc-RB-GHD" firstAttribute="top" secondItem="D74-dU-BOA" secondAttribute="top" constant="35" id="oju-Df-bfu"/>
+                                <constraint firstAttribute="trailing" secondItem="uB4-P7-aXd" secondAttribute="trailing" constant="20" id="pHN-kY-uYl"/>
+                                <constraint firstItem="uB4-P7-aXd" firstAttribute="leading" secondItem="D74-dU-BOA" secondAttribute="leading" constant="20" id="wZQ-23-TsT"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.maskedCorners">
+                                    <integer key="value" value="3"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="D74-dU-BOA" secondAttribute="trailing" id="0yc-Yw-ZfJ"/>
+                        <constraint firstAttribute="trailing" secondItem="Dmw-rO-XsH" secondAttribute="trailing" id="HFE-hf-WHT"/>
+                        <constraint firstItem="D74-dU-BOA" firstAttribute="top" secondItem="QHg-6E-9i6" secondAttribute="top" constant="660" id="O13-xI-WQH"/>
+                        <constraint firstItem="Dmw-rO-XsH" firstAttribute="leading" secondItem="QHg-6E-9i6" secondAttribute="leading" id="Tyc-vL-y8h"/>
+                        <constraint firstItem="D74-dU-BOA" firstAttribute="leading" secondItem="QHg-6E-9i6" secondAttribute="leading" id="XzQ-SC-xC1"/>
+                        <constraint firstItem="Dmw-rO-XsH" firstAttribute="top" secondItem="QHg-6E-9i6" secondAttribute="top" id="ap7-vh-SUf"/>
+                        <constraint firstAttribute="bottom" secondItem="Dmw-rO-XsH" secondAttribute="bottom" id="hdc-e8-aXX"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ie6-wD-o0R">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="fYJ-l2-7Y8"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="QHg-6E-9i6" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="1OT-e8-53a"/>
+                <constraint firstItem="Ie6-wD-o0R" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7L1-4Z-Mou"/>
+                <constraint firstItem="QHg-6E-9i6" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="RMc-ww-Bck"/>
+                <constraint firstItem="Ie6-wD-o0R" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="d4f-i6-9bp"/>
+                <constraint firstAttribute="bottom" secondItem="QHg-6E-9i6" secondAttribute="bottom" id="iXw-q4-fxe"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ie6-wD-o0R" secondAttribute="trailing" id="qdZ-8e-FQB"/>
+                <constraint firstItem="QHg-6E-9i6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vEr-n3-DuH"/>
+            </constraints>
+            <connections>
+                <outlet property="TopView" destination="Ie6-wD-o0R" id="6DG-tT-chB"/>
+                <outlet property="backgroundView" destination="Dmw-rO-XsH" id="hYM-3D-CEn"/>
+                <outlet property="bgView" destination="D74-dU-BOA" id="W7S-Vb-5mC"/>
+                <outlet property="topHeight" destination="O13-xI-WQH" id="Jbk-3V-lOg"/>
+            </connections>
+            <point key="canvasLocation" x="26.717557251908396" y="-11.267605633802818"/>
+        </view>
+    </objects>
+</document>

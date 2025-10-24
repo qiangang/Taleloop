@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1015DD262E4ED35E00C87CD1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1015DD252E4ED35E00C87CD1 /* StoreKit.framework */; };
+		5965675918E86638BC847EB5 /* Pods_Taleoop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF168E9973CEF1183B8589A5 /* Pods_Taleoop.framework */; };
+		8496266B2EAA282E000CB8CA /* NKWorking in Frameworks */ = {isa = PBXBuildFile; productRef = 8496266A2EAA282E000CB8CA /* NKWorking */; };
+		8496266E2EAA28AA000CB8CA /* AnchorStar in Frameworks */ = {isa = PBXBuildFile; productRef = 8496266D2EAA28AA000CB8CA /* AnchorStar */; };
+		849626712EAA2915000CB8CA /* GFCard in Frameworks */ = {isa = PBXBuildFile; productRef = 849626702EAA2915000CB8CA /* GFCard */; };
+		849626742EAA2959000CB8CA /* IMRoom in Frameworks */ = {isa = PBXBuildFile; productRef = 849626732EAA2959000CB8CA /* IMRoom */; };
+		849626772EAA2990000CB8CA /* PinkLoop in Frameworks */ = {isa = PBXBuildFile; productRef = 849626762EAA2990000CB8CA /* PinkLoop */; };
+		84C458962E98A24E002B9E5B /* AIAEC in Frameworks */ = {isa = PBXBuildFile; productRef = 84C458952E98A24E002B9E5B /* AIAEC */; };
+		84C458982E98A24E002B9E5B /* AINS in Frameworks */ = {isa = PBXBuildFile; productRef = 84C458972E98A24E002B9E5B /* AINS */; };
+		84C4589A2E98A24E002B9E5B /* AudioBeauty in Frameworks */ = {isa = PBXBuildFile; productRef = 84C458992E98A24E002B9E5B /* AudioBeauty */; };
+		84C4589C2E98A24E002B9E5B /* ClearVision in Frameworks */ = {isa = PBXBuildFile; productRef = 84C4589B2E98A24E002B9E5B /* ClearVision */; };
+		84C4589E2E98A24E002B9E5B /* ContentInspect in Frameworks */ = {isa = PBXBuildFile; productRef = 84C4589D2E98A24E002B9E5B /* ContentInspect */; };
+		84C458A02E98A24E002B9E5B /* FaceCapture in Frameworks */ = {isa = PBXBuildFile; productRef = 84C4589F2E98A24E002B9E5B /* FaceCapture */; };
+		84C458A22E98A24E002B9E5B /* FaceDetection in Frameworks */ = {isa = PBXBuildFile; productRef = 84C458A12E98A24E002B9E5B /* FaceDetection */; };
+		84C458A42E98A24E002B9E5B /* ReplayKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84C458A32E98A24E002B9E5B /* ReplayKit */; };
+		84C458A62E98A24E002B9E5B /* RtcBasic in Frameworks */ = {isa = PBXBuildFile; productRef = 84C458A52E98A24E002B9E5B /* RtcBasic */; };
+		84C458A82E98A24E002B9E5B /* SpatialAudio in Frameworks */ = {isa = PBXBuildFile; productRef = 84C458A72E98A24E002B9E5B /* SpatialAudio */; };
+		84C458AA2E98A24E002B9E5B /* VQA in Frameworks */ = {isa = PBXBuildFile; productRef = 84C458A92E98A24E002B9E5B /* VQA */; };
+		84C458AC2E98A24E002B9E5B /* VideoAv1CodecDec in Frameworks */ = {isa = PBXBuildFile; productRef = 84C458AB2E98A24E002B9E5B /* VideoAv1CodecDec */; };
+		84C458AE2E98A24E002B9E5B /* VideoCodecDec in Frameworks */ = {isa = PBXBuildFile; productRef = 84C458AD2E98A24E002B9E5B /* VideoCodecDec */; };
+		84C458B02E98A24E002B9E5B /* VideoCodecEnc in Frameworks */ = {isa = PBXBuildFile; productRef = 84C458AF2E98A24E002B9E5B /* VideoCodecEnc */; };
+		84C458B22E98A24E002B9E5B /* VirtualBackground in Frameworks */ = {isa = PBXBuildFile; productRef = 84C458B12E98A24E002B9E5B /* VirtualBackground */; };
+		B571589A2E7BE4EC00DC7FD5 /* AdjustGoogleOdm in Frameworks */ = {isa = PBXBuildFile; productRef = B57158992E7BE4EC00DC7FD5 /* AdjustGoogleOdm */; };
+		B571589C2E7BE4EC00DC7FD5 /* AdjustSdk in Frameworks */ = {isa = PBXBuildFile; productRef = B571589B2E7BE4EC00DC7FD5 /* AdjustSdk */; };
+		B571589E2E7BE4EC00DC7FD5 /* AdjustWebBridge in Frameworks */ = {isa = PBXBuildFile; productRef = B571589D2E7BE4EC00DC7FD5 /* AdjustWebBridge */; };
+		B57158A12E7BE51300DC7FD5 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = B57158A02E7BE51300DC7FD5 /* FacebookCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5FFAE542E5DA08100EB2380 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1003E1942E4DD5FE00459503 /* Taleoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taleoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1015DD252E4ED35E00C87CD1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6453C087A89517D482848ED3 /* Pods-Taleoop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taleoop.release.xcconfig"; path = "Target Support Files/Pods-Taleoop/Pods-Taleoop.release.xcconfig"; sourceTree = "<group>"; };
+		6B43CFA73C6969A2CC7441D9 /* Pods-Taleoop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Taleoop.debug.xcconfig"; path = "Target Support Files/Pods-Taleoop/Pods-Taleoop.debug.xcconfig"; sourceTree = "<group>"; };
+		EF168E9973CEF1183B8589A5 /* Pods_Taleoop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Taleoop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1003E1A62E4DD5FF00459503 /* Exceptions for "Taleoop" folder in "Taleoop" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1003E1932E4DD5FE00459503 /* Taleoop */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1003E1962E4DD5FE00459503 /* Taleoop */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1003E1A62E4DD5FF00459503 /* Exceptions for "Taleoop" folder in "Taleoop" target */,
+			);
+			path = Taleoop;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1003E1912E4DD5FE00459503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B571589A2E7BE4EC00DC7FD5 /* AdjustGoogleOdm in Frameworks */,
+				84C4589E2E98A24E002B9E5B /* ContentInspect in Frameworks */,
+				B571589E2E7BE4EC00DC7FD5 /* AdjustWebBridge in Frameworks */,
+				84C458A62E98A24E002B9E5B /* RtcBasic in Frameworks */,
+				84C458962E98A24E002B9E5B /* AIAEC in Frameworks */,
+				8496266E2EAA28AA000CB8CA /* AnchorStar in Frameworks */,
+				84C458AE2E98A24E002B9E5B /* VideoCodecDec in Frameworks */,
+				84C458AA2E98A24E002B9E5B /* VQA in Frameworks */,
+				8496266B2EAA282E000CB8CA /* NKWorking in Frameworks */,
+				5965675918E86638BC847EB5 /* Pods_Taleoop.framework in Frameworks */,
+				849626742EAA2959000CB8CA /* IMRoom in Frameworks */,
+				84C458B02E98A24E002B9E5B /* VideoCodecEnc in Frameworks */,
+				84C458A02E98A24E002B9E5B /* FaceCapture in Frameworks */,
+				84C4589A2E98A24E002B9E5B /* AudioBeauty in Frameworks */,
+				B571589C2E7BE4EC00DC7FD5 /* AdjustSdk in Frameworks */,
+				84C458A42E98A24E002B9E5B /* ReplayKit in Frameworks */,
+				849626772EAA2990000CB8CA /* PinkLoop in Frameworks */,
+				84C458A82E98A24E002B9E5B /* SpatialAudio in Frameworks */,
+				B57158A12E7BE51300DC7FD5 /* FacebookCore in Frameworks */,
+				84C458AC2E98A24E002B9E5B /* VideoAv1CodecDec in Frameworks */,
+				1015DD262E4ED35E00C87CD1 /* StoreKit.framework in Frameworks */,
+				84C458B22E98A24E002B9E5B /* VirtualBackground in Frameworks */,
+				84C458A22E98A24E002B9E5B /* FaceDetection in Frameworks */,
+				849626712EAA2915000CB8CA /* GFCard in Frameworks */,
+				84C4589C2E98A24E002B9E5B /* ClearVision in Frameworks */,
+				84C458982E98A24E002B9E5B /* AINS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1003E18B2E4DD5FE00459503 = {
+			isa = PBXGroup;
+			children = (
+				1003E1962E4DD5FE00459503 /* Taleoop */,
+				1003E1952E4DD5FE00459503 /* Products */,
+				B1400C649598B0B60D95A9AA /* Pods */,
+				37D3664BE1E5BD73C9EEDB96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1003E1952E4DD5FE00459503 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1003E1942E4DD5FE00459503 /* Taleoop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37D3664BE1E5BD73C9EEDB96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1015DD252E4ED35E00C87CD1 /* StoreKit.framework */,
+				EF168E9973CEF1183B8589A5 /* Pods_Taleoop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1400C649598B0B60D95A9AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B43CFA73C6969A2CC7441D9 /* Pods-Taleoop.debug.xcconfig */,
+				6453C087A89517D482848ED3 /* Pods-Taleoop.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1003E1932E4DD5FE00459503 /* Taleoop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1003E1A72E4DD5FF00459503 /* Build configuration list for PBXNativeTarget "Taleoop" */;
+			buildPhases = (
+				619B5610674B986616FB3CC6 /* [CP] Check Pods Manifest.lock */,
+				1003E1902E4DD5FE00459503 /* Sources */,
+				1003E1912E4DD5FE00459503 /* Frameworks */,
+				1003E1922E4DD5FE00459503 /* Resources */,
+				C9B0E672E06133A8544DEEF1 /* [CP] Embed Pods Frameworks */,
+				B5FFAE542E5DA08100EB2380 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1003E1962E4DD5FE00459503 /* Taleoop */,
+			);
+			name = Taleoop;
+			productName = Taleoop;
+			productReference = 1003E1942E4DD5FE00459503 /* Taleoop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1003E18C2E4DD5FE00459503 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1003E1932E4DD5FE00459503 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 1003E18F2E4DD5FE00459503 /* Build configuration list for PBXProject "Taleoop" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1003E18B2E4DD5FE00459503;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				849626692EAA282E000CB8CA /* XCRemoteSwiftPackageReference "NKWorking" */,
+				8496266C2EAA28AA000CB8CA /* XCRemoteSwiftPackageReference "AnchorStar" */,
+				8496266F2EAA2915000CB8CA /* XCRemoteSwiftPackageReference "GFCard" */,
+				849626722EAA2959000CB8CA /* XCRemoteSwiftPackageReference "IMRoom" */,
+				849626752EAA2990000CB8CA /* XCRemoteSwiftPackageReference "PinkLoop" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1003E1952E4DD5FE00459503 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1003E1932E4DD5FE00459503 /* Taleoop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1003E1922E4DD5FE00459503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		619B5610674B986616FB3CC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Taleoop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9B0E672E06133A8544DEEF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Taleoop/Pods-Taleoop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Taleoop/Pods-Taleoop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Taleoop/Pods-Taleoop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1003E1902E4DD5FE00459503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1003E1A82E4DD5FF00459503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B43CFA73C6969A2CC7441D9 /* Pods-Taleoop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Taleoop/Taleoop.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = FN323JR52D;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Taleoop/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Need to open the album permissions to save video、save image";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need to turn on the camera modify personal avatars, and send pictures.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need to turn on the microphone permission to post room updates and send voice.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need to open the album permissions to save video、save image";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Allow taleoop to provide a better advertising experience";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihbsjzmrt.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = xhDemo_dev_profile;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1003E1A92E4DD5FF00459503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6453C087A89517D482848ED3 /* Pods-Taleoop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Taleoop/Taleoop.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = FN323JR52D;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Taleoop/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Need to open the album permissions to save video、save image";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need to turn on the camera modify personal avatars, and send pictures.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need to turn on the microphone permission to post room updates and send voice.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need to open the album permissions to save video、save image";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Allow taleoop to provide a better advertising experience";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihbsjzmrt.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = xhDemo_dev_profile;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1003E1AA2E4DD5FF00459503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1003E1AB2E4DD5FF00459503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1003E18F2E4DD5FE00459503 /* Build configuration list for PBXProject "Taleoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1003E1AA2E4DD5FF00459503 /* Debug */,
+				1003E1AB2E4DD5FF00459503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1003E1A72E4DD5FF00459503 /* Build configuration list for PBXNativeTarget "Taleoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1003E1A82E4DD5FF00459503 /* Debug */,
+				1003E1A92E4DD5FF00459503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		849626692EAA282E000CB8CA /* XCRemoteSwiftPackageReference "NKWorking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LKstoreReady/NKWorking";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+		8496266C2EAA28AA000CB8CA /* XCRemoteSwiftPackageReference "AnchorStar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LKstoreReady/AnchorStar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.9;
+			};
+		};
+		8496266F2EAA2915000CB8CA /* XCRemoteSwiftPackageReference "GFCard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LKstoreReady/GFCard";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.9;
+			};
+		};
+		849626722EAA2959000CB8CA /* XCRemoteSwiftPackageReference "IMRoom" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LKstoreReady/IMRoom";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+		849626752EAA2990000CB8CA /* XCRemoteSwiftPackageReference "PinkLoop" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LKstoreReady/PinkLoop";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
+		B57158982E7BE4EC00DC7FD5 /* XCRemoteSwiftPackageReference "ios_sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adjust/ios_sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.4;
+			};
+		};
+		B571589F2E7BE51300DC7FD5 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8496266A2EAA282E000CB8CA /* NKWorking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 849626692EAA282E000CB8CA /* XCRemoteSwiftPackageReference "NKWorking" */;
+			productName = NKWorking;
+		};
+		8496266D2EAA28AA000CB8CA /* AnchorStar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8496266C2EAA28AA000CB8CA /* XCRemoteSwiftPackageReference "AnchorStar" */;
+			productName = AnchorStar;
+		};
+		849626702EAA2915000CB8CA /* GFCard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8496266F2EAA2915000CB8CA /* XCRemoteSwiftPackageReference "GFCard" */;
+			productName = GFCard;
+		};
+		849626732EAA2959000CB8CA /* IMRoom */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 849626722EAA2959000CB8CA /* XCRemoteSwiftPackageReference "IMRoom" */;
+			productName = IMRoom;
+		};
+		849626762EAA2990000CB8CA /* PinkLoop */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 849626752EAA2990000CB8CA /* XCRemoteSwiftPackageReference "PinkLoop" */;
+			productName = PinkLoop;
+		};
+		84C458952E98A24E002B9E5B /* AIAEC */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AIAEC;
+		};
+		84C458972E98A24E002B9E5B /* AINS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AINS;
+		};
+		84C458992E98A24E002B9E5B /* AudioBeauty */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AudioBeauty;
+		};
+		84C4589B2E98A24E002B9E5B /* ClearVision */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ClearVision;
+		};
+		84C4589D2E98A24E002B9E5B /* ContentInspect */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ContentInspect;
+		};
+		84C4589F2E98A24E002B9E5B /* FaceCapture */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FaceCapture;
+		};
+		84C458A12E98A24E002B9E5B /* FaceDetection */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FaceDetection;
+		};
+		84C458A32E98A24E002B9E5B /* ReplayKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ReplayKit;
+		};
+		84C458A52E98A24E002B9E5B /* RtcBasic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RtcBasic;
+		};
+		84C458A72E98A24E002B9E5B /* SpatialAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SpatialAudio;
+		};
+		84C458A92E98A24E002B9E5B /* VQA */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VQA;
+		};
+		84C458AB2E98A24E002B9E5B /* VideoAv1CodecDec */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VideoAv1CodecDec;
+		};
+		84C458AD2E98A24E002B9E5B /* VideoCodecDec */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VideoCodecDec;
+		};
+		84C458AF2E98A24E002B9E5B /* VideoCodecEnc */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VideoCodecEnc;
+		};
+		84C458B12E98A24E002B9E5B /* VirtualBackground */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VirtualBackground;
+		};
+		B57158992E7BE4EC00DC7FD5 /* AdjustGoogleOdm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B57158982E7BE4EC00DC7FD5 /* XCRemoteSwiftPackageReference "ios_sdk" */;
+			productName = AdjustGoogleOdm;
+		};
+		B571589B2E7BE4EC00DC7FD5 /* AdjustSdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B57158982E7BE4EC00DC7FD5 /* XCRemoteSwiftPackageReference "ios_sdk" */;
+			productName = AdjustSdk;
+		};
+		B571589D2E7BE4EC00DC7FD5 /* AdjustWebBridge */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B57158982E7BE4EC00DC7FD5 /* XCRemoteSwiftPackageReference "ios_sdk" */;
+			productName = AdjustWebBridge;
+		};
+		B57158A02E7BE51300DC7FD5 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B571589F2E7BE51300DC7FD5 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1003E18C2E4DD5FE00459503 /* Project object */;
+}
