@@ -185,7 +185,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UNUserNotificationCenterDe
         RCCoreClient.shared().connect(withToken: TaleUserData.shared.data.vs!, timeLimit: 5) { code in
         } success: { status in
             HeLoadPaletted.localAccountIdentifiers()
-            
+            RCCoreClient.shared().registerMessageType(RsTimeStep.self)
             HeExecuteDelete.iRemindersB.bEndDistance = true
 
             let userInfo = RCUserInfo(userId: "\(TaleUserData.shared.data.chylomicron)", name: TaleUserData.shared.data.dioestrous, portrait: TaleUserData.shared.data.groupware)

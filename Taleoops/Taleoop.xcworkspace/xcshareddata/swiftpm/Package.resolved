@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/adjust/adjust_signature_sdk.git",
       "state" : {
-        "revision" : "a84f08b41f7e38624815816f6e93cadc9ea22a92",
-        "version" : "3.47.0"
+        "revision" : "b11c73304c2410bd410cc9369b812a83cc117002",
+        "version" : "3.61.0"
       }
     },
     {
@@ -42,8 +42,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/LKstoreReady/AnchorStar",
       "state" : {
-        "revision" : "be47a3da04e2dce23262506abbd0dbcfb2744ebb",
-        "version" : "1.0.13"
+        "revision" : "ccac4a27d2651c077e26f605dadc784b617e9fa3",
+        "version" : "1.0.19"
       }
     },
     {
@@ -60,8 +60,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/LKstoreReady/CKStar",
       "state" : {
-        "revision" : "278cb7dec01ad1da6ae74be68671b811199ebedc",
-        "version" : "1.0.8"
+        "revision" : "4500cc81d1b774de7a70224e31bb33b09f63dc8a",
+        "version" : "1.0.18"
       }
     },
     {
@@ -114,8 +114,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/LKstoreReady/IMRoom",
       "state" : {
-        "revision" : "dd3fb9bb6f56ca0e77eeeb3896a51867c7b1eb0f",
-        "version" : "2.0.5"
+        "revision" : "81573681108455607895a9ff2b40a9ee854dfc18",
+        "version" : "2.0.7"
       }
     },
     {
@@ -123,8 +123,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/adjust/ios_sdk",
       "state" : {
-        "revision" : "517f44c723856ab578e9186b0e24095085cd29bb",
-        "version" : "5.4.5"
+        "revision" : "fbe95360df63c3c0f9a98c5f2efb39b46bd2f08d",
+        "version" : "5.4.6"
       }
     },
     {
@@ -132,8 +132,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/LKstoreReady/LKChar",
       "state" : {
-        "revision" : "ae90bce566c9ec86d7249a83302b76ac703e22f4",
-        "version" : "1.0.12"
+        "revision" : "4f27f134eae7a03c91636a832d4217ef146a9ac3",
+        "version" : "1.0.14"
       }
     },
     {
